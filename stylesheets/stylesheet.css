@@ -28,7 +28,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -228,6 +227,19 @@ Full-Width Styles
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#logo_banner {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: -300px;
+  z-index: 10;
+  padding: 200px 250px 10px 10px;
+  background: url('../images/openblas.png')  no-repeat ;
+  font-weight: 700;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
