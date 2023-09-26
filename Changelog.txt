@@ -1519,7 +1519,7 @@ common:
 x86/x86-64:
 	* Fixed lots of bugs for optimized kernels on sandybridge,Haswell, 
 	  bulldozer, and piledriver.
-	  https://github.com/xianyi/OpenBLAS/wiki/Fixed-optimized-kernels-To-do-List
+	  https://github.com/OpenMathLib/OpenBLAS/wiki/Fixed-optimized-kernels-To-do-List
 
 ARM:
 	* Improved LAPACK testing.
@@ -1533,7 +1533,7 @@ common:
 	* Build import library on Windows.(#374)
 x86/x86-64:
 	* To improve LAPACK testing, we fallback some kernels. (#372)
-	https://github.com/xianyi/OpenBLAS/wiki/Fixed-optimized-kernels-To-do-List
+	https://github.com/OpenMathLib/OpenBLAS/wiki/Fixed-optimized-kernels-To-do-List
 
 ====================================================================
 Version 0.2.9.rc2

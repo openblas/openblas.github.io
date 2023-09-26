@@ -1,4 +1,4 @@
 openblas.github.io
 ==================
 
-web hosting for openblas project
+Website for OpenBLAS project.
