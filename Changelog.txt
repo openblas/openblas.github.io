@@ -21,7 +21,6 @@ general:
    - corrected the error code returned by IMATCOPY when LDB is too small
    - updated ?NRM2 to support negative increment values (as introduced in release 3.10 
      of the reference BLAS)
-   - updated ?ROTG to use the safe scaling algorithm introduced in release 3.10.0 of the Reference BLAS
    - fixed OpenMP builds with CLANG for the case where libomp is not in a standard location
    - fixed a potential overwrite of unrelated memory during thread initialisation on startup
    - fixed a potential integer overflow in the multithreading threshold for ?SYMM/?SYRK
